@@ -1,5 +1,5 @@
 import { IsIn, IsNotEmpty, IsOptional, IsString } from 'class-validator';
-import { TaskStatus } from '../task.modal';
+import { TaskStatus } from '../task-status.enum';
 
 export class UpdateTaskDto {
   @IsOptional()
